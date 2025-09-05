@@ -1,6 +1,56 @@
-# Getting Started with Create React App
+# Weather Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive weather dashboard web application built with React that provides real-time weather data and forecasts. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+- **Responsive Design**: 3-column layout (1:4:1 ratio) that adapts to different screen sizes
+- **Real-time Weather Data**: Integration with WeatherAPI.com for current conditions and forecasts
+- **Current Weather**: Temperature, conditions, wind speed, humidity, and UV index
+- **5-Day Forecast**: Daily weather predictions with high/low temperatures
+- **Search Functionality**: Look up weather by city name
+- **Geolocation Support**: Get weather for your current location
+- **Unit Toggle**: Switch between Celsius and Fahrenheit
+- **Additional Widgets**: Clock, location information, and weather tips
+- **Multiple Pages**: Dashboard, About, and Settings
+- **Modern UI**: Card-based design with smooth transitions and animations
+
+## Setup
+
+1. Create a `.env` file in the root directory and add your WeatherAPI.com API key:
+   ```
+   REACT_APP_WEATHER_API_KEY=your_weatherapi_key_here
+   ```
+   You can get a free API key by signing up at [WeatherAPI.com](https://www.weatherapi.com/)
+
+## Project Structure
+
+```
+src/
+├── assets/         # Images and static assets
+├── components/     # Reusable UI components
+│   ├── Layout/     # Layout components
+│   ├── Navigation/ # Navigation components
+│   ├── Weather/    # Weather-related components
+│   └── Widgets/    # Widget components
+├── context/        # React Context for state management
+├── pages/          # Page components
+│   ├── About/      # About page
+│   ├── Dashboard/  # Main dashboard page
+│   └── Settings/   # Settings page
+├── services/       # API services
+└── styles/         # Global styles
+```
+
+## Technologies Used
+
+- **React**: Frontend library for building user interfaces
+- **React Router**: For navigation between pages
+- **Styled Components**: For component-specific styling
+- **Axios**: For API requests
+- **WeatherAPI.com**: For weather data
+- **Font Awesome**: For icons
+- **Context API**: For state management
 
 ## Available Scripts
 
