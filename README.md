@@ -15,13 +15,7 @@ A responsive weather dashboard web application built with React that provides re
 - **Multiple Pages**: Dashboard, About, and Settings
 - **Modern UI**: Card-based design with smooth transitions and animations
 
-## Setup
 
-1. Create a `.env` file in the root directory and add your WeatherAPI.com API key:
-   ```
-   REACT_APP_WEATHER_API_KEY=your_weatherapi_key_here
-   ```
-   You can get a free API key by signing up at [WeatherAPI.com](https://www.weatherapi.com/)
 
 ## Project Structure
 
