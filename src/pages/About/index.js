@@ -135,7 +135,7 @@ const About = () => {
           </SectionTitle>
           <SectionContent>
             <p>Weather data provided by <a href="https://www.weatherapi.com/" target="_blank" rel="noopener noreferrer">WeatherAPI.com</a></p>
-            <p>Icons by <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Font Awesome</a></p>
+            <p>Developed by :  <a href='https://porfolio-frontend-sepia.vercel.app/'>Vishalpreet Singh</a>  </p>
             <p>Developed as part of a frontend development project</p>
           </SectionContent>
         </AboutSection>

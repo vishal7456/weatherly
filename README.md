@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-A responsive weather dashboard web application built with React that provides real-time weather data and forecasts. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive weather dashboard web application built with React that provides real-time weather data and forecasts. 
 
 ## Features
 
